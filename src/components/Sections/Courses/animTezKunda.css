@@ -1,0 +1,22 @@
+.animBox{
+      transform: translate(-100%);
+}
+
+.animBox{
+      animation-name: animText;
+      animation-timing-function: linear;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-direction:unset;
+}
+
+
+@keyframes animText {
+      from{
+            transform: translate(-100%);
+      }
+      to{
+            transform: translate(100%);
+      }
+      
+}
